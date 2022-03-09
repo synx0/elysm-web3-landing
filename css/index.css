@@ -7,16 +7,15 @@ body {
   
   .container {
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
-    
-    position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
   }
-  
+
   .title {
     font-size: 10vw;
     color: #fff;
@@ -25,10 +24,10 @@ body {
     animation: glow 1s ease-in-out infinite alternate;
   }
 
-  .subtitle{
-    font-size: 15px;
-    color: #fff;
-  }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
   @-webkit-keyframes glow {
     from {
